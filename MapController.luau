@@ -28,6 +28,7 @@ function MapController.bringPlayers(players)
 	for _, player: Player in players do
 		player.Character.HumanoidRootPart.CFrame = CFrame.new(map.to.Position + Vector3.new(0,5,0))
 	end
+	return true
 end
 
 return MapController
